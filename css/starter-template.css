@@ -1,0 +1,234 @@
+html , body{
+	width: 100%;
+}
+body {
+	padding-top: 50px;
+	font-size: 14px;
+	position: relative;
+}
+li {
+	list-style: none;
+}
+@media screen and (min-width: 992px){
+	.upTop:hover{
+		text-decoration: none;
+	}
+	.upTop{
+		position: absolute;
+		bottom: 100px;
+		right: 20px;
+		width: 46px;
+		height: 46px;
+		background: rgb(119,119,119);
+		opacity: .8;
+		text-align: center;
+	}
+	.upTop span {
+		color: #eee;
+		font-size: 40px;
+		line-height: 40px;
+	}
+}
+.starter-template {
+	padding: 40px 15px;
+	text-align: center;
+}
+.masthead {
+	position: relative;
+	background:linear-gradient(45deg,#020031 0,#6d3353 100%);
+}
+.masthead:after{
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+}
+div.masthead{
+	padding:90px 0 110px 0;
+	margin-bottom: 0;
+}
+.jumbotron > .container {
+	padding: 0 15px;
+}
+.masthead h1{
+	margin: 20px 0 10px;
+	text-align: center;
+	color: #fff;
+	line-height: 1;
+	font-weight: 700;
+	letter-spacing: -2px;
+}
+@media screen and (min-width:768px) {
+	.masthead h1{
+		font-size: 90px;
+	}
+}
+@media screen and (min-width:992px) {
+	.jumbotron h1{
+		font-size: 100px;
+	}
+}
+.masthead h2{
+	margin: 20px 0 10px;
+	color: #fff;
+	text-align: center;
+	font-weight: 200;
+	line-height: 1.25;
+}
+@media screen and (min-width:768px) {
+	.masthead h2 {
+		font-size: 24px;
+	}
+}
+@media screen and (min-width:992px) {
+	.masthead h2 {
+		font-size: 30px;
+	}
+}
+.masthead-button-links {
+	margin: 30px 0 15px;
+	text-align: center;
+}
+.masthead-button-links > a{
+	padding: 13px 35px 17px;
+	text-align: center;
+	border: none;
+}
+.masthead-links {
+	text-align: center;
+	padding: 0;
+}
+.masthead-links li {
+	padding: 0 10px;
+	list-style: none;
+	text-align: center;
+}
+.masthead-links li {
+	display: inline;
+}
+.masthead-links a {
+	text-align: center;
+	line-height: 20px;
+	color:rgba(255,255,255,.5);
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+	-o-transition: all .2s ease-in-out;
+	transition: all .2s ease-in-out;
+}
+.masthead-links a:hover{
+	color: #fff;
+}
+.bootstrap-friendLinks {
+	padding: 15px 0 15px;
+	border: 1px solid gray;
+	text-align: center;	
+	background: #f5f5f5;
+	border-top: 1px solid #fff;
+	border-bottom: 1px solid #ddd;
+}
+.bootstrap-friendLinks ul {
+	margin-bottom: 0;
+	padding: 0;
+	display: inline-block;
+}
+.bootstrap-friendLinks li{
+	list-style: none;
+	float: left;
+}
+.bootstrap-friendLinks a{
+	font-size: 14px;
+	line-height: 14px;
+	color: rgba(85, 85, 85,1);
+}
+.bootstrap-friendLinks .weibo:before {
+	padding: 0 10px;
+	color: #ccc;
+	content: "|";
+}
+.bootstrap-friendLinks .weibo:hover{
+	color: red;
+}
+.bootstrap-item-recommend{
+	width: 60%;
+	margin: 60px 0 40px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 9px;
+	border-bottom: 1px solid rgb(238,238,238);
+}
+.bootstrap-item-recommend h2 {
+	font-size: 42px;
+	font-weight: 700;
+	margin: 20px 0 10px;
+}
+.bootstrap-item-recommend p{
+	font-size: 14px;
+	font-weight: 200;
+}
+.bootstrap-item-recommend h2, .bootstrap-item-recommend p{
+	text-align: center;
+	color: rgb(51, 51, 51);
+}
+.tab {
+	text-align: center;
+	padding: 4px;
+	border: 1px solid rgb(221,221,221);
+}
+.tab > div {
+	padding: 9px;
+}
+.tab img{
+	width: 100%;
+}
+.tab a:hover{
+	text-decoration: none;
+}
+.tab > .tab_imgLink{
+	display: inline-block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.tab > div small{
+	display: inline-block;
+	max-width: 100%;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;	
+}
+.tab > div a{
+	margin: 20px 0 20px;
+}
+.bfooter {
+	margin-top: 70px;
+	padding:30px 0;
+	border-top: 1px solid rgb(229, 229,229);
+}
+.bfooter_friendLinks ul {
+	padding-left: 0;
+}
+.bfooter_friendLinks .list a{
+	color: rgb(119, 119, 119);
+}
+.bfooter_desc p{
+	color: rgb(119,119,119);
+}
+.bfooter_friendLinks .list li:first-child{
+	margin:10px 0;
+	color: #563d7c;
+}
+hr {
+	height: 0;
+	border: 0;
+	border-top: 1px solid #eee;
+}
+.bfooter .separate:before{
+	content: "|";
+	padding: 0 10px;
+	color: #eee;
+}
+.icp a, .icp span{
+	color: #777;
+	font-size: 13px;
+	line-height: 1.42857143;
+}
